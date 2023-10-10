@@ -1,0 +1,207 @@
+header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  text-transform: uppercase;
+}
+header h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3,
+main h3 {
+  letter-spacing: 5px;
+  margin: 0;
+  font-size: 24px;
+}
+h2,
+h3,
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h5 {
+  color: #5bd5e3;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/hat-guitar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+main {
+  background-color: #12101d;
+  color: white;
+}
+main p {
+  color: #f9f4ff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main h3 {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 5px;
+  color: #5bd5e3;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(2, 4, 3, 0.8), rgba(2, 4, 3, 0.8)),
+    url("../images/hat-guitar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+footer p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.btn {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  background: #885df1;
+  border-radius: 100px;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 32px;
+  color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 36px;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.section-1-img {
+  max-width: 500px;
+  margin-left: 60px;
+}
+.img-responsive {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.secondary {
+  background-color: black;
+  padding: 0 171px 0 171px;
+}
+.card {
+  background-color: white;
+  border-radius: 15px;
+}
+.card p {
+  color: #272044;
+  margin-top: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.secondary .btn {
+  display: block;
+}
+.secondary h3 {
+  padding-top: 30px;
+}
+.songs-embed h5,
+.songs-embed h2 {
+  text-align: center;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 15px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+  section {
+    padding: 30px;
+  }
+  footer h4 {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 18px;
+  }
+
+  .section-1-img {
+    max-width: 150px;
+  }
+}
